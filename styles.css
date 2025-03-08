@@ -5,7 +5,7 @@
 :root {
 	--clr-dark: #1F2937;
 	--clr-light: #F9FAF8;
-	--clr-gray: #E5E7EB;
+	--clr-gray: #e5e7ebb0;
 	--clr-accent: #3882F6;
 
 	--ff-primary: 'Roboto', sans-serif;
@@ -58,7 +58,8 @@ ul {
 body {
 	line-height: 1.5;
 	font-family: var(--ff-primary);
-      
+    display: flex;
+	flex-direction: column;
 }
 
 /* make images easier to work with */
@@ -73,4 +74,76 @@ button,
 textarea,
 select {
     font: inherit;
+}
+
+/* ------------------- */
+/* Components          */
+/* ------------------- */
+
+.cta-btn {
+	padding: 4px 30px;
+	font-weight: 600;
+	border: none;
+	border-radius: 5px;
+}
+
+/* header */
+
+header {
+	color: var(--clr-light);
+	background-color: var(--clr-dark);
+}
+
+/* hero section */
+
+#hero {
+	display: flex;
+	align-items: center;
+	gap: 5em;
+	margin: 5em;
+}
+
+#hero h1 {
+	font-weight: 900;
+	font-size: var(--fs-900);
+}
+
+#hero img {
+	width: 400px;
+	border-radius: 10px;
+}
+
+#hero p {
+	font-size: var(--fs-400);
+	color: var(--clr-gray);
+}
+
+#hero .cta-btn {
+	margin-top: 20px;
+	color: var(--clr-light);
+	background-color: var(--clr-accent);
+}
+
+/* primary navigation */
+
+.primary-nav {
+	display: flex;
+	justify-content: space-between;
+	padding-block: 1em;
+	margin-inline: 5em;
+}
+
+.primary-nav ul {
+	display: flex;
+	gap: 20px;
+}
+
+.primary-nav a {
+	text-decoration: none;
+	font-size: var(--fs-400);
+	color: var(--clr-gray);
+}
+
+.header-logo {
+	font-size: var(--fs-500);
 }
