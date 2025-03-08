@@ -6,6 +6,7 @@
 	--clr-dark: #1F2937;
 	--clr-light: #F9FAF8;
 	--clr-gray: #6D747D;
+	--clr-light-gray: #E5E7EB;
 	--clr-accent: #3882F6;
 
 	--ff-primary: 'Roboto', sans-serif;
@@ -35,7 +36,8 @@ h2,
 h3,
 p,
 figure,
-picture {
+picture,
+blockquote {
     margin: 0; 
 }
 
@@ -177,4 +179,25 @@ header {
 	margin-block: 8px;
 	border: 5px solid var(--clr-accent);
 	border-radius: 15px;
+}
+
+/* quote section */
+
+.home-quote {
+	display: flex;
+	flex-direction: column;
+	padding: 5em 15.5em;
+	background-color: var(--clr-light-gray)
+}
+
+.home-quote blockquote {
+	line-height: 1.2;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: var(--fs-800);
+}
+
+.home-quote p {
+	align-self: flex-end;
+	font-weight: 600;
 }
