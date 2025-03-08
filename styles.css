@@ -187,7 +187,7 @@ header {
 .home-quote {
 	display: flex;
 	flex-direction: column;
-	padding: 5em 15.5em;
+	padding: 5em 10em;
 	background-color: var(--clr-light-gray)
 }
 
