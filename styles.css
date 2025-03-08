@@ -5,7 +5,7 @@
 :root {
 	--clr-dark: #1F2937;
 	--clr-light: #F9FAF8;
-	--clr-gray: #e5e7ebb0;
+	--clr-gray: #6D747D;
 	--clr-accent: #3882F6;
 
 	--ff-primary: 'Roboto', sans-serif;
@@ -146,4 +146,35 @@ header {
 
 .header-logo {
 	font-size: var(--fs-500);
+}
+
+/* random information section */
+
+.random-info {
+	text-align: center;
+	margin-block: 5em;
+}
+
+.random-info h2 {
+	margin-bottom: .5em;
+	font-weight: 900;
+	font-size: var(--fs-800);
+}
+
+.random-cards {
+	display: flex;
+	justify-content: center;
+	gap: 4em;
+}
+
+.random-cards article {
+	width: 150px;
+	color: var(--clr-gray);
+	line-height: 1.2;
+}
+
+.random-cards img {
+	margin-block: 8px;
+	border: 5px solid var(--clr-accent);
+	border-radius: 15px;
 }
