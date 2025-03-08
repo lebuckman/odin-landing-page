@@ -232,3 +232,12 @@ header {
 	color: var(--clr-light);
 	background-color: var(--clr-accent);
 }
+
+/* footer */
+
+footer {
+	text-align: center;
+	padding-block: 2em;
+	color: var(--clr-light);
+	background-color: var(--clr-dark);
+}
