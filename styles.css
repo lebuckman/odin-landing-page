@@ -127,6 +127,13 @@ header {
 	background-color: var(--clr-accent);
 }
 
+#hero .cta-btn:hover {
+	cursor: pointer;
+	color: var(--clr-accent);
+	border-color: var(--clr-light);
+	background-color: var(--clr-light);
+}
+
 /* primary navigation */
 
 .primary-nav {
@@ -231,6 +238,12 @@ header {
 .cta .cta-btn {
 	color: var(--clr-light);
 	background-color: var(--clr-accent);
+}
+
+.cta .cta-btn:hover {
+	cursor: pointer;
+	color: var(--clr-accent);
+	background-color: var(--clr-light);
 }
 
 /* footer */
