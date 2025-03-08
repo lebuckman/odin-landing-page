@@ -1,0 +1,76 @@
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+
+:root {
+	--clr-dark: #1F2937;
+	--clr-light: #F9FAF8;
+	--clr-gray: #E5E7EB;
+	--clr-accent: #3882F6;
+
+	--ff-primary: 'Roboto', sans-serif;
+
+	--fs-400: 18px;
+	--fs-500: 24px;
+	--fs-800: 36px;
+	--fs-900: 48px;
+}
+
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* reset margins */
+body,
+h1,
+h2,
+h3,
+p,
+figure,
+picture {
+    margin: 0; 
+}
+
+/* remove default bold styling */
+h1,
+h2,
+h3,
+p {
+    font-weight: 400;
+}
+
+/* remove default ul styling */
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* set up the body */
+body {
+	line-height: 1.5;
+	font-family: var(--ff-primary);
+      
+}
+
+/* make images easier to work with */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
