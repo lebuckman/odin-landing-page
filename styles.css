@@ -154,6 +154,11 @@ header {
 	color: var(--clr-gray);
 }
 
+.primary-nav a:hover {
+	cursor: pointer;
+	color: var(--clr-light);
+}
+
 .header-logo {
 	font-size: var(--fs-500);
 }
